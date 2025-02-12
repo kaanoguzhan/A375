@@ -1,6 +1,3 @@
-
-# Dockerfile for Deepseek-R1-671B
-
 FROM vllm/vllm-openai:latest
 
 # Enable HF Hub Transfer
