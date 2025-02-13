@@ -8,7 +8,11 @@ prompts = [
 ]
 sampling_params = SamplingParams(temperature=0.8, top_p=0.95)
 
-llm = LLM(model="deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B", dtype="half")
+llm = LLM(
+    model="deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B",
+    dtype="half",
+    enforce_eager=True,
+)
 
 outputs = llm.generate(prompts, sampling_params)
 
