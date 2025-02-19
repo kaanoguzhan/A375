@@ -1,0 +1,13 @@
+# MacOS
+.DS_Store
+
+# Terraform
+*.tfstate.lock.info
+*.tfstate.backup
+*.tfstate
+# Local .terraform directories
+**/.terraform/*  
+
+logs
+
+test.sh
