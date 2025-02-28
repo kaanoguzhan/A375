@@ -2,6 +2,7 @@
 .DS_Store
 
 # Terraform
+# Terraform auto-generate cache files
 *.tfstate.lock.info
 *.tfstate.backup
 *.tfstate
